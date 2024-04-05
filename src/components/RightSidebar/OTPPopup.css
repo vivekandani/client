@@ -1,0 +1,19 @@
+.submit-btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 5px;
+  background-color: #009dff;
+  border: 1px solid #009dff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 13px;
+  font-weight: 500;
+}
+.otp-input {
+  padding: 10px;
+  width: 50%;
+  border: solid 1px #0000003e;
+  font-size: 13px;
+}
