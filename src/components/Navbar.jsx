@@ -46,8 +46,7 @@ function Navbar({ handleSlideIn }) {
       moment("18:00", "HH:mm")
     );
     dispatch(updateTheme(isDaytime ? "light-theme" : "dark-theme"));
-  });
-  //[User?.token, dispatch]
+  }, [User?.token, dispatch]);
 
   return (
     <nav className={`main-nav ${currentTheme.theme}`}>
